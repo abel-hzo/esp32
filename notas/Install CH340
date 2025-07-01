@@ -1,0 +1,19 @@
+#Download:
+
+	git clone -b ubuntu https://github.com/juliagoda/CH341SER.git
+
+#Goto the directory of the source code
+
+	cd Downloads/CH341SER
+
+#Compile
+
+	make
+
+#Load the driver:
+
+	sudo make load
+
+#Give permissions:
+
+	sudo chmod 777 /dev/ttyUSB0 

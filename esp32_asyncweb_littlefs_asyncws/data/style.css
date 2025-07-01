@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.533);
+}
+
+h1 {
+    text-align: center;
+    padding: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 80%;
+    border-radius: 8px;
+    margin: 10px auto 10px auto;
+    background-color: rgb(218, 236, 252);
+}
+
+.button {
+    width: 300px;
+    margin: auto;
+    background-color: rgb(143, 144, 254);
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button:hover {
+    background-color: rgb(96, 98, 244);
+}
+
+.button:active {
+    background-color: rgb(20, 23, 206);
+}
+
+input {
+    display: block;
+    margin: 20px auto 0 auto;
+    appearance: none;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(236, 23, 23);
+    transition: background-color .3s;
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+input::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: left .3s;
+    user-select: none;
+}
+
+input:checked {
+    background-color: rgb(12, 252, 12);
+}
+
+input:checked::after {
+    left: 75%;
+}

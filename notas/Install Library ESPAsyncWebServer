@@ -1,0 +1,40 @@
+ES IMPORTANTE IR DIRECTO A LA PAGINA DEL FABRICANTE:
+ESP32Async
+Y DESCARGAR LAS ULTIMAS VERSIONES O SI NO HABRA ERRORES.
+
+FIRST:
+
+First we have to install "AsyncTCP":
+
+	https://github.com/ESP32Async/AsyncTCP
+
+Download .ZIP releases:
+
+	AsyncTCP-3.4.4.zip
+
+Open IDE Arduino and go to 
+	
+	Sketch > Include Library > Add .ZIP Library...
+
+Select: AsyncTCP-3.4.4.zip
+
+SECOND:
+
+Go to the page:
+
+	https://github.com/ESP32Async/ESPAsyncWebServer
+
+Download .ZIP releases:
+
+	ESPAsyncWebServer-3.7.8.zip
+
+Open IDE Arduino and go to 
+	
+	Sketch > Include Library > Add .ZIP Library...
+
+Select: ESPAsyncWebServer-3.7.8.zip
+
+
+
+Nota: Hay una pagina llamada "lacamera", 
+de esa pagina NO.

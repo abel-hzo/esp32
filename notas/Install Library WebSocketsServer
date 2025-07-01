@@ -1,0 +1,12 @@
+-Download the Library, Releases Section:
+
+	https://github.com/Links2004/arduinoWebSockets
+
+-Load the Library:
+
+	Sketch > Include Library > add .ZIP Library
+
+-Select File ZIP:
+	
+	arduinoWebSockets-2.6.1.zip
+

@@ -1,0 +1,3 @@
+Este modificador de rm significa "recursivo". 
+Se utiliza para eliminar directorios y 
+todo su contenido (archivos y subdirectorios).

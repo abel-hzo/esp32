@@ -1,0 +1,23 @@
+1.- Crear carpeta data en Sketch > Show Sketch Folder
+   (ALT + CTRL + K)
+
+2.- Descargar plugin "arduino-littlefs-upload-1.5.x.vsix". 
+    https://github.com/earlephilhower/arduino-littlefs-upload
+
+3.- Pegar el plugin en "/home/user/.arduinoIDE/plugins", pero 
+    antes crear la carpeta /plugins.
+
+4.- Reiniciar el Arduino IDE.
+
+5.- Ahora creamos una carpeta llamada "data" con todos sus 
+    archivos a subir y el sketch compilado, cerramos el monitor 
+    serial para desocupar el puerto "/dev/ttyUSB0" y ejecutamos con:
+ 
+    CTRL + SHIFT + P
+
+    Seleccionamos Subir LittleFS a Pico/ESP8266/ESP32.
+                  Upload LittleFS to PICO/ESP8266/ESP32.
+
+Referencia:
+
+https://randomnerdtutorials.com/arduino-ide-2-install-esp32-littlefs/

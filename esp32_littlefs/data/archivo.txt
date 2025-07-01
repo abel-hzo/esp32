@@ -1,0 +1,8 @@
+Para eliminar archivos temporales en el directorio /
+tmp en Debian, puedes usar el comando rm seguido de 
+la ruta al directorio y un asterisco para eliminar 
+todos los archivos dentro de él: sudo rm -r /tmp/*. 
+Es importante tener precaución con este comando, ya 
+que elimina archivos de forma permanente y no se pueden 
+recuperar. Se recomienda verificar el contenido del 
+directorio /tmp antes de ejecutar el comando. 
