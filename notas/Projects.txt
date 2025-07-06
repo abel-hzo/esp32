@@ -5,7 +5,7 @@ esp32_webserver_littlefs ✔️
 esp32_webserver_littlefs_ws ✔️ 
 esp32_asyncweb_littlefs_ws ✔️
 esp32_asyncweb_littlefs_asyncws ✔️
-*esp32_asyncweb_littlefs_ws_ota  ❌
+*esp32_asyncweb_littlefs_asyncws_ota ✔️
 *esp32_asyncweb_littlefs_ws_ota_ap ❌
 *esp32_asyncweb_littlefs_ws_upload ❌
 *esp32_bluetooth ❌
